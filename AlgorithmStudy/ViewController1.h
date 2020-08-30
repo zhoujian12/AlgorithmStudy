@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  AlgorithmStudy
 //
 //  Created by jianz3 on 2020/8/30.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ViewController1 : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
 
 @end
 

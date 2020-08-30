@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HomeTableVC.h
 //  AlgorithmStudy
 //
 //  Created by jianz3 on 2020/8/30.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
+@interface HomeTableVC : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

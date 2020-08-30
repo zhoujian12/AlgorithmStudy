@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		2382216224FB519B002EB1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216124FB519B002EB1DA /* AppDelegate.m */; };
 		2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216424FB519B002EB1DA /* SceneDelegate.m */; };
-		2382216824FB519B002EB1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216724FB519B002EB1DA /* ViewController.m */; };
-		2382216B24FB519B002EB1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2382216924FB519B002EB1DA /* Main.storyboard */; };
+		2382216824FB519B002EB1DA /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216724FB519B002EB1DA /* ViewController1.m */; };
 		2382216D24FB519D002EB1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2382216C24FB519D002EB1DA /* Assets.xcassets */; };
-		2382217024FB519D002EB1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2382216E24FB519D002EB1DA /* LaunchScreen.storyboard */; };
 		2382217324FB519D002EB1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382217224FB519D002EB1DA /* main.m */; };
+		2382217B24FB5650002EB1DA /* CFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382217924FB564F002EB1DA /* CFTool.m */; };
+		2382217E24FB57EB002EB1DA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382217C24FB57EB002EB1DA /* DetailViewController.m */; };
+		2382218324FB58BC002EB1DA /* PriorityQueueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382218224FB58BC002EB1DA /* PriorityQueueVC.m */; };
+		2382218624FB5907002EB1DA /* TopKVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382218524FB5907002EB1DA /* TopKVc.m */; };
+		2382218924FB5BA4002EB1DA /* MyDimeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382218824FB5BA4002EB1DA /* MyDimeScale.m */; };
+		2382218C24FB5D93002EB1DA /* MyLayoutMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382218B24FB5D93002EB1DA /* MyLayoutMath.m */; };
+		2382219224FB6143002EB1DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2382219124FB6143002EB1DA /* LaunchScreen.xib */; };
+		2382219524FB6931002EB1DA /* HomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382219424FB6931002EB1DA /* HomeTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +28,26 @@
 		2382216124FB519B002EB1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2382216324FB519B002EB1DA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2382216424FB519B002EB1DA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2382216624FB519B002EB1DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2382216724FB519B002EB1DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2382216A24FB519B002EB1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2382216624FB519B002EB1DA /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		2382216724FB519B002EB1DA /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		2382216C24FB519D002EB1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2382216F24FB519D002EB1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2382217124FB519D002EB1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2382217224FB519D002EB1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2382217924FB564F002EB1DA /* CFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFTool.m; sourceTree = "<group>"; };
+		2382217A24FB564F002EB1DA /* CFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTool.h; sourceTree = "<group>"; };
+		2382217C24FB57EB002EB1DA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2382217D24FB57EB002EB1DA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2382218124FB58BC002EB1DA /* PriorityQueueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueueVC.h; sourceTree = "<group>"; };
+		2382218224FB58BC002EB1DA /* PriorityQueueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueueVC.m; sourceTree = "<group>"; };
+		2382218424FB5907002EB1DA /* TopKVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopKVc.h; sourceTree = "<group>"; };
+		2382218524FB5907002EB1DA /* TopKVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopKVc.m; sourceTree = "<group>"; };
+		2382218724FB5BA3002EB1DA /* MyDimeScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDimeScale.h; sourceTree = "<group>"; };
+		2382218824FB5BA4002EB1DA /* MyDimeScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDimeScale.m; sourceTree = "<group>"; };
+		2382218A24FB5D93002EB1DA /* MyLayoutMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayoutMath.h; sourceTree = "<group>"; };
+		2382218B24FB5D93002EB1DA /* MyLayoutMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayoutMath.m; sourceTree = "<group>"; };
+		2382219124FB6143002EB1DA /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		2382219324FB6931002EB1DA /* HomeTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableVC.h; sourceTree = "<group>"; };
+		2382219424FB6931002EB1DA /* HomeTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +80,48 @@
 		2382215F24FB519B002EB1DA /* AlgorithmStudy */ = {
 			isa = PBXGroup;
 			children = (
+				2382217F24FB5841002EB1DA /* UIViewContollers */,
 				2382216024FB519B002EB1DA /* AppDelegate.h */,
 				2382216124FB519B002EB1DA /* AppDelegate.m */,
+				2382219324FB6931002EB1DA /* HomeTableVC.h */,
+				2382219424FB6931002EB1DA /* HomeTableVC.m */,
+				2382218A24FB5D93002EB1DA /* MyLayoutMath.h */,
+				2382218B24FB5D93002EB1DA /* MyLayoutMath.m */,
+				2382218724FB5BA3002EB1DA /* MyDimeScale.h */,
+				2382218824FB5BA4002EB1DA /* MyDimeScale.m */,
 				2382216324FB519B002EB1DA /* SceneDelegate.h */,
 				2382216424FB519B002EB1DA /* SceneDelegate.m */,
-				2382216624FB519B002EB1DA /* ViewController.h */,
-				2382216724FB519B002EB1DA /* ViewController.m */,
-				2382216924FB519B002EB1DA /* Main.storyboard */,
+				2382216624FB519B002EB1DA /* ViewController1.h */,
+				2382216724FB519B002EB1DA /* ViewController1.m */,
+				2382217D24FB57EB002EB1DA /* DetailViewController.h */,
+				2382217C24FB57EB002EB1DA /* DetailViewController.m */,
+				2382217A24FB564F002EB1DA /* CFTool.h */,
+				2382217924FB564F002EB1DA /* CFTool.m */,
 				2382216C24FB519D002EB1DA /* Assets.xcassets */,
-				2382216E24FB519D002EB1DA /* LaunchScreen.storyboard */,
+				2382219124FB6143002EB1DA /* LaunchScreen.xib */,
 				2382217124FB519D002EB1DA /* Info.plist */,
 				2382217224FB519D002EB1DA /* main.m */,
 			);
 			path = AlgorithmStudy;
+			sourceTree = "<group>";
+		};
+		2382217F24FB5841002EB1DA /* UIViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				2382218024FB5854002EB1DA /* Heap */,
+			);
+			path = UIViewContollers;
+			sourceTree = "<group>";
+		};
+		2382218024FB5854002EB1DA /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				2382218124FB58BC002EB1DA /* PriorityQueueVC.h */,
+				2382218224FB58BC002EB1DA /* PriorityQueueVC.m */,
+				2382218424FB5907002EB1DA /* TopKVc.h */,
+				2382218524FB5907002EB1DA /* TopKVc.m */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2382217024FB519D002EB1DA /* LaunchScreen.storyboard in Resources */,
+				2382219224FB6143002EB1DA /* LaunchScreen.xib in Resources */,
 				2382216D24FB519D002EB1DA /* Assets.xcassets in Resources */,
-				2382216B24FB519B002EB1DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,33 +193,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2382216824FB519B002EB1DA /* ViewController.m in Sources */,
+				2382218924FB5BA4002EB1DA /* MyDimeScale.m in Sources */,
+				2382219524FB6931002EB1DA /* HomeTableVC.m in Sources */,
+				2382216824FB519B002EB1DA /* ViewController1.m in Sources */,
+				2382218324FB58BC002EB1DA /* PriorityQueueVC.m in Sources */,
+				2382218624FB5907002EB1DA /* TopKVc.m in Sources */,
+				2382217B24FB5650002EB1DA /* CFTool.m in Sources */,
 				2382216224FB519B002EB1DA /* AppDelegate.m in Sources */,
 				2382217324FB519D002EB1DA /* main.m in Sources */,
+				2382218C24FB5D93002EB1DA /* MyLayoutMath.m in Sources */,
 				2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */,
+				2382217E24FB57EB002EB1DA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2382216924FB519B002EB1DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2382216A24FB519B002EB1DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2382216E24FB519D002EB1DA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2382216F24FB519D002EB1DA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2382217424FB519D002EB1DA /* Debug */ = {
@@ -225,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

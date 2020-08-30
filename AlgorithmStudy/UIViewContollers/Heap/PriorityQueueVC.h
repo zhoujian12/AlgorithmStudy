@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PriorityQueueVC.h
 //  AlgorithmStudy
 //
 //  Created by jianz3 on 2020/8/30.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface PriorityQueueVC : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
