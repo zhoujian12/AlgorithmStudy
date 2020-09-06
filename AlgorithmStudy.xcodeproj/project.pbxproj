@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2382216224FB519B002EB1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216124FB519B002EB1DA /* AppDelegate.m */; };
 		2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216424FB519B002EB1DA /* SceneDelegate.m */; };
-		2382216824FB519B002EB1DA /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216724FB519B002EB1DA /* ViewController1.m */; };
 		2382216D24FB519D002EB1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2382216C24FB519D002EB1DA /* Assets.xcassets */; };
 		2382217324FB519D002EB1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382217224FB519D002EB1DA /* main.m */; };
 		2382217B24FB5650002EB1DA /* CFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382217924FB564F002EB1DA /* CFTool.m */; };
@@ -28,8 +27,6 @@
 		2382216124FB519B002EB1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2382216324FB519B002EB1DA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2382216424FB519B002EB1DA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2382216624FB519B002EB1DA /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
-		2382216724FB519B002EB1DA /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		2382216C24FB519D002EB1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2382217124FB519D002EB1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2382217224FB519D002EB1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,8 +88,6 @@
 				2382218824FB5BA4002EB1DA /* MyDimeScale.m */,
 				2382216324FB519B002EB1DA /* SceneDelegate.h */,
 				2382216424FB519B002EB1DA /* SceneDelegate.m */,
-				2382216624FB519B002EB1DA /* ViewController1.h */,
-				2382216724FB519B002EB1DA /* ViewController1.m */,
 				2382217D24FB57EB002EB1DA /* DetailViewController.h */,
 				2382217C24FB57EB002EB1DA /* DetailViewController.m */,
 				2382217A24FB564F002EB1DA /* CFTool.h */,
@@ -195,7 +190,6 @@
 			files = (
 				2382218924FB5BA4002EB1DA /* MyDimeScale.m in Sources */,
 				2382219524FB6931002EB1DA /* HomeTableVC.m in Sources */,
-				2382216824FB519B002EB1DA /* ViewController1.m in Sources */,
 				2382218324FB58BC002EB1DA /* PriorityQueueVC.m in Sources */,
 				2382218624FB5907002EB1DA /* TopKVc.m in Sources */,
 				2382217B24FB5650002EB1DA /* CFTool.m in Sources */,
