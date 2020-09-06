@@ -71,7 +71,7 @@
     cell.textLabel.text = self.demoTypeList[indexPath.row][@"type_title"];
     cell.textLabel.textAlignment = NSTextAlignmentLeft;
     
-    cell.imageView.image = [UIImage imageNamed:self.demoTypeList[indexPath.row][@"type_desc"]];
+//    cell.imageView.image = [UIImage imageNamed:self.demoTypeList[indexPath.row][@"type_desc"]];
     return cell;
     
 }

@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController1.h"
 #import "MyDimeScale.h"
 #import "HomeTableVC.h"
 
