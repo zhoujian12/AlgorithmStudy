@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23273CF925048A6C0023AA70 /* Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = 23273CF825048A6C0023AA70 /* Heap.m */; };
 		2382216224FB519B002EB1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216124FB519B002EB1DA /* AppDelegate.m */; };
 		2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216424FB519B002EB1DA /* SceneDelegate.m */; };
 		2382216D24FB519D002EB1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2382216C24FB519D002EB1DA /* Assets.xcassets */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23273CF725048A6C0023AA70 /* Heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
+		23273CF825048A6C0023AA70 /* Heap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heap.m; sourceTree = "<group>"; };
 		2382215D24FB519B002EB1DA /* AlgorithmStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2382216024FB519B002EB1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2382216124FB519B002EB1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 			children = (
 				2382218124FB58BC002EB1DA /* PriorityQueueVC.h */,
 				2382218224FB58BC002EB1DA /* PriorityQueueVC.m */,
+				23273CF725048A6C0023AA70 /* Heap.h */,
+				23273CF825048A6C0023AA70 /* Heap.m */,
 				2382218424FB5907002EB1DA /* TopKVc.h */,
 				2382218524FB5907002EB1DA /* TopKVc.m */,
 			);
@@ -196,6 +201,7 @@
 				2382216224FB519B002EB1DA /* AppDelegate.m in Sources */,
 				2382217324FB519D002EB1DA /* main.m in Sources */,
 				2382218C24FB5D93002EB1DA /* MyLayoutMath.m in Sources */,
+				23273CF925048A6C0023AA70 /* Heap.m in Sources */,
 				2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */,
 				2382217E24FB57EB002EB1DA /* DetailViewController.m in Sources */,
 			);
