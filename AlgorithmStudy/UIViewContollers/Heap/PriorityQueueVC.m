@@ -8,6 +8,8 @@
 
 #import "PriorityQueueVC.h"
 #import "Heap.h"
+#import "ZJTreeNodeUtil.h"
+#import "ZJTreeOperation.h"
 
 @interface PriorityQueueVC ()
 
@@ -35,6 +37,19 @@
     Heap *heap = [[Heap alloc] initWithCapacity:a.count];
     [heap sortHeapWithArr:a];
     [heap LogHeap];
+    
+    //
+    double x = log2(8);
+    NSInteger w = (NSInteger)(x);
+    //堆的层数 = w + 1
+    NSInteger layersNumber = w + 1;
+    //MARK:  打印
+    NSMutableArray *b = [NSMutableArray arrayWithArray:@[@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12,@13,@14]];
+    ZJTreeNode *node = [ZJTreeNodeUtil initNodeWithArr:[b copy]];
+    ZJTreeOperation *op = [[ZJTreeOperation alloc] init];
+    [op showWithNode:node];
+    
+    
 }
 
 - (NSArray *)mergeOrderArrayWithFirstArray: (NSMutableArray *)array1 secondArray: (NSMutableArray *)array2 {

@@ -106,4 +106,9 @@
 }
 
 
+/// 图形化打印
+- (void)LogHeapByGraph{
+    NSLog(@"heap description : %@",self.description);
+}
+
 @end
