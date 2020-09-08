@@ -29,7 +29,7 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         
-        https://blog.csdn.net/durbin86/article/details/12951939
+        //https://blog.csdn.net/durbin86/article/details/12951939
         //MARK: app每次启动 main函数地址是否有发生变化,  栈基址每次都不一样
         /*
          1. s : 0x7ffee2becc80
