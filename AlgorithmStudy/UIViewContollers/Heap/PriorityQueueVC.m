@@ -7,6 +7,9 @@
 //
 
 #import "PriorityQueueVC.h"
+#import "Heap.h"
+#import "ZJTreeNodeUtil.h"
+#import "ZJTreeOperation.h"
 
 @interface PriorityQueueVC ()
 
@@ -21,10 +24,32 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
    
+    //MARK: 1.合并两个有序数组
     NSMutableArray *arr1 = [NSMutableArray arrayWithArray:@[@1,@3,@9,@66,@100]];
     NSMutableArray *arr2 = [NSMutableArray arrayWithArray:@[@2,@8,@77,@88,@99]];
     NSArray *arr = [self mergeOrderArrayWithFirstArray:arr1 secondArray:arr2];
     NSLog(@"arr : %@",arr);
+    
+    //MARK: 2.堆排序
+    //1.建堆
+    //2.排序
+    NSMutableArray *a = [NSMutableArray arrayWithArray:@[@5,@7,@1,@3,@9,@66,@100]];
+    Heap *heap = [[Heap alloc] initWithCapacity:a.count];
+    [heap sortHeapWithArr:a];
+    [heap LogHeap];
+    
+    //
+    double x = log2(8);
+    NSInteger w = (NSInteger)(x);
+    //堆的层数 = w + 1
+    NSInteger layersNumber = w + 1;
+    //MARK:  打印
+    NSMutableArray *b = [NSMutableArray arrayWithArray:@[@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12,@13,@14]];
+    ZJTreeNode *node = [ZJTreeNodeUtil initNodeWithArr:[b copy]];
+    ZJTreeOperation *op = [[ZJTreeOperation alloc] init];
+    [op showWithNode:node];
+    
+    
 }
 
 - (NSArray *)mergeOrderArrayWithFirstArray: (NSMutableArray *)array1 secondArray: (NSMutableArray *)array2 {
@@ -59,78 +84,6 @@
         }
     }
     return endArray;
-}
-
-@end
-
-@interface Heap : NSObject
-@property (nonatomic,strong)NSMutableArray *a; // 数组，从下标1开始存储数据
-@property (nonatomic, assign)NSInteger n; // 堆可以存储的最大数据个数
-@property (nonatomic, assign)NSInteger count; // 堆中已经存储的数据个数
-
-@end
-
-@implementation Heap
-- (instancetype)initWithCapacity:(NSInteger)capacity
-{
-    self = [super init];
-    if (self) {
-        _a = [[NSMutableArray alloc] init];
-        _n = capacity;
-        _count = 0;
-    }
-    return self;
-}
-
-- (void)insert:(NSInteger)data{
-    if (_count > _n) {
-        return; //堆满了
-    }
-    ++self.count;
-    [self.a insertObject:[NSNumber numberWithInteger:data] atIndex:_count];
-    NSInteger i = _count;
-    while (i/2 > 0 && [_a[i] intValue] > [_a[i/2] intValue]) { //自顶往下堆化
-        [self.a exchangeObjectAtIndex:i withObjectAtIndex:i/2];
-        i = i/2;
-    }
-}
-
-- (NSInteger)removeMax{
-    if (_count == 0) {//堆中没有数据
-        return -1;
-    }
-    
-    self.a[1] = self.a[_count];
-    --self.count;
-    [self heapifyWithN:self.count i:1];
-    
-    return 0;
-}
-
-- (void)heapifyWithN:(NSInteger)n i:(NSInteger)i{
-    while (true) {
-        NSInteger maxPos = i;
-        if (i*2 <= n && [_a[i] intValue] < [_a[2*i]intValue]) {
-            maxPos = i*2;
-        }
-        if (i*2 + 1 <= n && [_a[i] intValue] < [_a[2*i + 1]intValue]) {
-            maxPos = i*2 + 1;
-        }
-        if (maxPos == 1) {
-            break;
-        }
-        [self.a exchangeObjectAtIndex:maxPos withObjectAtIndex:i];
-        i = maxPos;
-    }
-}
-
-- (NSString *)description
-{
-    return [NSString stringWithFormat:@"self.count:%ld \n self.n:%ld \n self.a:%@", self.count,self.n,self.a];
-}
-
-- (void)LogHeap{
-    
 }
 
 @end

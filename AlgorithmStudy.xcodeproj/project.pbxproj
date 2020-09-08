@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23273CF925048A6C0023AA70 /* Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = 23273CF825048A6C0023AA70 /* Heap.m */; };
 		2382216224FB519B002EB1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216124FB519B002EB1DA /* AppDelegate.m */; };
 		2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216424FB519B002EB1DA /* SceneDelegate.m */; };
 		2382216D24FB519D002EB1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2382216C24FB519D002EB1DA /* Assets.xcassets */; };
@@ -19,9 +20,15 @@
 		2382218C24FB5D93002EB1DA /* MyLayoutMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382218B24FB5D93002EB1DA /* MyLayoutMath.m */; };
 		2382219224FB6143002EB1DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2382219124FB6143002EB1DA /* LaunchScreen.xib */; };
 		2382219524FB6931002EB1DA /* HomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382219424FB6931002EB1DA /* HomeTableVC.m */; };
+		239B4B6C2507313C00450B73 /* ZJNSNotificationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 239B4B6B2507313C00450B73 /* ZJNSNotificationVc.m */; };
+		23E5BD0A250610CA00950AB2 /* ZJTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5BD09250610CA00950AB2 /* ZJTreeNode.m */; };
+		23E5BD0D2506130B00950AB2 /* ZJTreeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5BD0C2506130B00950AB2 /* ZJTreeOperation.m */; };
+		23E5BD102506305F00950AB2 /* ZJTreeNodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5BD0F2506305F00950AB2 /* ZJTreeNodeUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23273CF725048A6C0023AA70 /* Heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
+		23273CF825048A6C0023AA70 /* Heap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heap.m; sourceTree = "<group>"; };
 		2382215D24FB519B002EB1DA /* AlgorithmStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2382216024FB519B002EB1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2382216124FB519B002EB1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +52,14 @@
 		2382219124FB6143002EB1DA /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		2382219324FB6931002EB1DA /* HomeTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableVC.h; sourceTree = "<group>"; };
 		2382219424FB6931002EB1DA /* HomeTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableVC.m; sourceTree = "<group>"; };
+		239B4B6A2507313C00450B73 /* ZJNSNotificationVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNSNotificationVc.h; sourceTree = "<group>"; };
+		239B4B6B2507313C00450B73 /* ZJNSNotificationVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNSNotificationVc.m; sourceTree = "<group>"; };
+		23E5BD08250610CA00950AB2 /* ZJTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTreeNode.h; sourceTree = "<group>"; };
+		23E5BD09250610CA00950AB2 /* ZJTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTreeNode.m; sourceTree = "<group>"; };
+		23E5BD0B2506130B00950AB2 /* ZJTreeOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTreeOperation.h; sourceTree = "<group>"; };
+		23E5BD0C2506130B00950AB2 /* ZJTreeOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTreeOperation.m; sourceTree = "<group>"; };
+		23E5BD0E2506305F00950AB2 /* ZJTreeNodeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTreeNodeUtil.h; sourceTree = "<group>"; };
+		23E5BD0F2506305F00950AB2 /* ZJTreeNodeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTreeNodeUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,8 @@
 		2382217F24FB5841002EB1DA /* UIViewContollers */ = {
 			isa = PBXGroup;
 			children = (
+				239B4B692507308300450B73 /* FAQ */,
+				23E5BD112506355E00950AB2 /* Tree */,
 				2382218024FB5854002EB1DA /* Heap */,
 			);
 			path = UIViewContollers;
@@ -113,10 +130,34 @@
 			children = (
 				2382218124FB58BC002EB1DA /* PriorityQueueVC.h */,
 				2382218224FB58BC002EB1DA /* PriorityQueueVC.m */,
+				23273CF725048A6C0023AA70 /* Heap.h */,
+				23273CF825048A6C0023AA70 /* Heap.m */,
 				2382218424FB5907002EB1DA /* TopKVc.h */,
 				2382218524FB5907002EB1DA /* TopKVc.m */,
 			);
 			path = Heap;
+			sourceTree = "<group>";
+		};
+		239B4B692507308300450B73 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				239B4B6A2507313C00450B73 /* ZJNSNotificationVc.h */,
+				239B4B6B2507313C00450B73 /* ZJNSNotificationVc.m */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		23E5BD112506355E00950AB2 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				23E5BD0B2506130B00950AB2 /* ZJTreeOperation.h */,
+				23E5BD0C2506130B00950AB2 /* ZJTreeOperation.m */,
+				23E5BD08250610CA00950AB2 /* ZJTreeNode.h */,
+				23E5BD09250610CA00950AB2 /* ZJTreeNode.m */,
+				23E5BD0E2506305F00950AB2 /* ZJTreeNodeUtil.h */,
+				23E5BD0F2506305F00950AB2 /* ZJTreeNodeUtil.m */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,11 +234,16 @@
 				2382218324FB58BC002EB1DA /* PriorityQueueVC.m in Sources */,
 				2382218624FB5907002EB1DA /* TopKVc.m in Sources */,
 				2382217B24FB5650002EB1DA /* CFTool.m in Sources */,
+				23E5BD0D2506130B00950AB2 /* ZJTreeOperation.m in Sources */,
+				23E5BD0A250610CA00950AB2 /* ZJTreeNode.m in Sources */,
 				2382216224FB519B002EB1DA /* AppDelegate.m in Sources */,
 				2382217324FB519D002EB1DA /* main.m in Sources */,
+				239B4B6C2507313C00450B73 /* ZJNSNotificationVc.m in Sources */,
 				2382218C24FB5D93002EB1DA /* MyLayoutMath.m in Sources */,
+				23273CF925048A6C0023AA70 /* Heap.m in Sources */,
 				2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */,
 				2382217E24FB57EB002EB1DA /* DetailViewController.m in Sources */,
+				23E5BD102506305F00950AB2 /* ZJTreeNodeUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,6 +29,14 @@
                                                @"class":[NSClassFromString(@"TopKVc")  class]
                                              }
                             ]
+        },@{@"type_title":@"iOS 常见问题",
+            @"type_vclist":@[@{@"title":NSLocalizedString(@"1. NSNotification是同步还是异步，如何验证", @""),
+                               @"class":[NSClassFromString(@"ZJNSNotificationVc")  class]
+            },
+                             @{@"title":NSLocalizedString(@"2. MRC下如何实现weak的功能", @""),
+                               @"class":[NSClassFromString(@"TopKVc")  class]
+                             }
+            ]
         }];
         
     }
@@ -38,16 +46,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+    
     self.title = NSLocalizedString(@"Category",@"");
-      self.navigationController.navigationBar.titleTextAttributes = @{NSFontAttributeName:[CFTool font:15],NSForegroundColorAttributeName:[CFTool color:4]};
-      
-      UILabel *tipLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 0, 50)];
-      tipLabel.text = @"如果您在模拟器中运行时看到的不是中文则请到系统设置里面将语言设置为中文(english ignore this text)";
-      tipLabel.font = [CFTool font:16];
-      tipLabel.numberOfLines = 0;
-      tipLabel.adjustsFontSizeToFitWidth = YES;
-      self.tableView.tableHeaderView = tipLabel;
+    self.navigationController.navigationBar.titleTextAttributes = @{NSFontAttributeName:[CFTool font:15],NSForegroundColorAttributeName:[CFTool color:4]};
+    
+    UILabel *tipLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 0, 50)];
+    tipLabel.text = @"如果您在模拟器中运行时看到的不是中文则请到系统设置里面将语言设置为中文(english ignore this text)";
+    tipLabel.font = [CFTool font:16];
+    tipLabel.numberOfLines = 0;
+    tipLabel.adjustsFontSizeToFitWidth = YES;
+    self.tableView.tableHeaderView = tipLabel;
     
 }
 
@@ -71,7 +79,7 @@
     cell.textLabel.text = self.demoTypeList[indexPath.row][@"type_title"];
     cell.textLabel.textAlignment = NSTextAlignmentLeft;
     
-//    cell.imageView.image = [UIImage imageNamed:self.demoTypeList[indexPath.row][@"type_desc"]];
+    //    cell.imageView.image = [UIImage imageNamed:self.demoTypeList[indexPath.row][@"type_desc"]];
     return cell;
     
 }
@@ -84,7 +92,7 @@
     DetailViewController *detailVC = [[DetailViewController alloc] initWithDemoVCList:self.demoTypeList[indexPath.row][@"type_vclist"]];
     detailVC.title = self.demoTypeList[indexPath.row][@"type_title"];
     [self.navigationController pushViewController:detailVC animated:YES];
-
+    
 }
 
 @end
