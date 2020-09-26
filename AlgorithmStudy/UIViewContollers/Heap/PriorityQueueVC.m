@@ -44,7 +44,9 @@
     //堆的层数 = w + 1
     NSInteger layersNumber = w + 1;
     //MARK:  打印
-    NSMutableArray *b = [NSMutableArray arrayWithArray:@[@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12,@13,@14]];
+//    NSMutableArray *b = [NSMutableArray arrayWithArray:@[@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12,@13,@14,@15]];
+    NSMutableArray *b = [NSMutableArray arrayWithArray:@[@1,@2,@3,@4,@5,@6,@7,@8,@9,@4,@5,@6,@7,@8,@9]];
+
     ZJTreeNode *node = [ZJTreeNodeUtil initNodeWithArr:[b copy]];
     ZJTreeOperation *op = [[ZJTreeOperation alloc] init];
     [op showWithNode:node];

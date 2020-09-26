@@ -37,6 +37,11 @@
                                @"class":[NSClassFromString(@"TopKVc")  class]
                              }
             ]
+        },@{@"type_title":@"iOS 技术需求",
+            @"type_vclist":@[@{@"title":NSLocalizedString(@"1. iOS系统的各种设备识别码", @""),
+                               @"class":[NSClassFromString(@"ZJIosIdentifierVC")  class]
+            }
+            ]
         }];
         
     }

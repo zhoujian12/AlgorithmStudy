@@ -21,9 +21,11 @@
 		2382219224FB6143002EB1DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2382219124FB6143002EB1DA /* LaunchScreen.xib */; };
 		2382219524FB6931002EB1DA /* HomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382219424FB6931002EB1DA /* HomeTableVC.m */; };
 		239B4B6C2507313C00450B73 /* ZJNSNotificationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 239B4B6B2507313C00450B73 /* ZJNSNotificationVc.m */; };
+		23A257842518D24E00718838 /* ZJIosIdentifierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A257832518D24E00718838 /* ZJIosIdentifierVC.m */; };
 		23E5BD0A250610CA00950AB2 /* ZJTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5BD09250610CA00950AB2 /* ZJTreeNode.m */; };
 		23E5BD0D2506130B00950AB2 /* ZJTreeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5BD0C2506130B00950AB2 /* ZJTreeOperation.m */; };
 		23E5BD102506305F00950AB2 /* ZJTreeNodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5BD0F2506305F00950AB2 /* ZJTreeNodeUtil.m */; };
+		23F5BA0A2519F8CE00464400 /* ZJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F5BA092519F8CE00464400 /* ZJBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,12 +56,17 @@
 		2382219424FB6931002EB1DA /* HomeTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableVC.m; sourceTree = "<group>"; };
 		239B4B6A2507313C00450B73 /* ZJNSNotificationVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNSNotificationVc.h; sourceTree = "<group>"; };
 		239B4B6B2507313C00450B73 /* ZJNSNotificationVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNSNotificationVc.m; sourceTree = "<group>"; };
+		23A257822518D24E00718838 /* ZJIosIdentifierVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJIosIdentifierVC.h; sourceTree = "<group>"; };
+		23A257832518D24E00718838 /* ZJIosIdentifierVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJIosIdentifierVC.m; sourceTree = "<group>"; };
 		23E5BD08250610CA00950AB2 /* ZJTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTreeNode.h; sourceTree = "<group>"; };
 		23E5BD09250610CA00950AB2 /* ZJTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTreeNode.m; sourceTree = "<group>"; };
 		23E5BD0B2506130B00950AB2 /* ZJTreeOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTreeOperation.h; sourceTree = "<group>"; };
 		23E5BD0C2506130B00950AB2 /* ZJTreeOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTreeOperation.m; sourceTree = "<group>"; };
 		23E5BD0E2506305F00950AB2 /* ZJTreeNodeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTreeNodeUtil.h; sourceTree = "<group>"; };
 		23E5BD0F2506305F00950AB2 /* ZJTreeNodeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTreeNodeUtil.m; sourceTree = "<group>"; };
+		23F5BA072519F87900464400 /* ZJBaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJBaseDefine.h; sourceTree = "<group>"; };
+		23F5BA082519F8CE00464400 /* ZJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJBaseViewController.h; sourceTree = "<group>"; };
+		23F5BA092519F8CE00464400 /* ZJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +99,7 @@
 		2382215F24FB519B002EB1DA /* AlgorithmStudy */ = {
 			isa = PBXGroup;
 			children = (
+				23F5BA062519F84500464400 /* Base */,
 				2382217F24FB5841002EB1DA /* UIViewContollers */,
 				2382216024FB519B002EB1DA /* AppDelegate.h */,
 				2382216124FB519B002EB1DA /* AppDelegate.m */,
@@ -118,6 +126,7 @@
 		2382217F24FB5841002EB1DA /* UIViewContollers */ = {
 			isa = PBXGroup;
 			children = (
+				23A257812518D1B500718838 /* Work */,
 				239B4B692507308300450B73 /* FAQ */,
 				23E5BD112506355E00950AB2 /* Tree */,
 				2382218024FB5854002EB1DA /* Heap */,
@@ -147,6 +156,15 @@
 			path = FAQ;
 			sourceTree = "<group>";
 		};
+		23A257812518D1B500718838 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				23A257822518D24E00718838 /* ZJIosIdentifierVC.h */,
+				23A257832518D24E00718838 /* ZJIosIdentifierVC.m */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
 		23E5BD112506355E00950AB2 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +176,16 @@
 				23E5BD0F2506305F00950AB2 /* ZJTreeNodeUtil.m */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		23F5BA062519F84500464400 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				23F5BA072519F87900464400 /* ZJBaseDefine.h */,
+				23F5BA082519F8CE00464400 /* ZJBaseViewController.h */,
+				23F5BA092519F8CE00464400 /* ZJBaseViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +266,8 @@
 				23E5BD0A250610CA00950AB2 /* ZJTreeNode.m in Sources */,
 				2382216224FB519B002EB1DA /* AppDelegate.m in Sources */,
 				2382217324FB519D002EB1DA /* main.m in Sources */,
+				23A257842518D24E00718838 /* ZJIosIdentifierVC.m in Sources */,
+				23F5BA0A2519F8CE00464400 /* ZJBaseViewController.m in Sources */,
 				239B4B6C2507313C00450B73 /* ZJNSNotificationVc.m in Sources */,
 				2382218C24FB5D93002EB1DA /* MyLayoutMath.m in Sources */,
 				23273CF925048A6C0023AA70 /* Heap.m in Sources */,

@@ -5,6 +5,7 @@
 //  Created by ZhouJian on 2020/9/8.
 //  Copyright © 2020 jianz3.com. All rights reserved.
 //
+// NSNotification是同步还是异步？   https://blog.csdn.net/xubinlxb/article/details/52073803
 
 #import "ZJNSNotificationVc.h"
 
