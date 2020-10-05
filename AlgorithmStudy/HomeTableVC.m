@@ -37,12 +37,21 @@
                                @"class":[NSClassFromString(@"TopKVc")  class]
                              }
             ]
+
         },@{@"type_title":@"iOS 技术需求",
             @"type_vclist":@[@{@"title":NSLocalizedString(@"1. iOS系统的各种设备识别码", @""),
                                @"class":[NSClassFromString(@"ZJIosIdentifierVC")  class]
             }
             ]
-        }];
+        },@{@"type_title":@"图算法(graph)",
+            @"type_vclist":@[@{@"title":NSLocalizedString(@"1.最短路径算法", @""),
+                               @"class":[NSClassFromString(@"ZJFloydWarshallVC")  class]
+            },
+                             @{@"title":NSLocalizedString(@"2利用堆求 Top K", @""),
+                               @"class":[NSClassFromString(@"TopKVc")  class]
+                             }
+            ]
+}];
         
     }
     return _demoTypeList;
