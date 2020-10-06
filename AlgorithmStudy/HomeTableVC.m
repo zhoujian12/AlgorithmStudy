@@ -44,7 +44,7 @@
             }
             ]
         },@{@"type_title":@"图算法(graph)",
-            @"type_vclist":@[@{@"title":NSLocalizedString(@"1.最短路径算法", @""),
+            @"type_vclist":@[@{@"title":NSLocalizedString(@"1.最短路径FloydWarshall算法", @""),
                                @"class":[NSClassFromString(@"ZJFloydWarshallVC")  class]
             },
                              @{@"title":NSLocalizedString(@"2利用堆求 Top K", @""),
