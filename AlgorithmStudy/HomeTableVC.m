@@ -47,8 +47,8 @@
             @"type_vclist":@[@{@"title":NSLocalizedString(@"1.最短路径FloydWarshall算法", @""),
                                @"class":[NSClassFromString(@"ZJFloydWarshallVC")  class]
             },
-                             @{@"title":NSLocalizedString(@"2利用堆求 Top K", @""),
-                               @"class":[NSClassFromString(@"TopKVc")  class]
+                             @{@"title":NSLocalizedString(@"2 图算法", @""),
+                               @"class":[NSClassFromString(@"ZJGraphVC")  class]
                              }
             ]
 }];
