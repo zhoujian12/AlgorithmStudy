@@ -1,17 +1,19 @@
 //
-//  ZJGraphVC.h
+//  ZJUndirectedGraph.h
 //  AlgorithmStudy
 //
 //  Created by jianz3 on 2020/10/6.
 //  Copyright © 2020 jianz3.com. All rights reserved.
 //
-// https://www.coder.work/article/4423375
 
-#import "ZJBaseViewController.h"
+#import <UIKit/UIKit.h>
+#import "ZJGraph.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZJGraphVC : ZJBaseViewController
+@interface ZJUndirectedGraph : ZJGraph
+
+- (instancetype)initWithVertexCount:(NSInteger)vertexCount;
 
 @end
 

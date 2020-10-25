@@ -24,6 +24,7 @@
 		238F2EBB252C30EE00E128CF /* ZJGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F2EBA252C30EE00E128CF /* ZJGraph.m */; };
 		238F2EBF252C318000E128CF /* ZJVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F2EBE252C318000E128CF /* ZJVertex.m */; };
 		238F2EC3252C378500E128CF /* ZJGraphVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F2EC2252C378500E128CF /* ZJGraphVC.m */; };
+		238F2ECA252C761000E128CF /* ZJUndirectedGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F2EC9252C761000E128CF /* ZJUndirectedGraph.m */; };
 		239B4B6C2507313C00450B73 /* ZJNSNotificationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 239B4B6B2507313C00450B73 /* ZJNSNotificationVc.m */; };
 		23A257842518D24E00718838 /* ZJIosIdentifierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A257832518D24E00718838 /* ZJIosIdentifierVC.m */; };
 		23E5BD0A250610CA00950AB2 /* ZJTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5BD09250610CA00950AB2 /* ZJTreeNode.m */; };
@@ -66,6 +67,8 @@
 		238F2EBE252C318000E128CF /* ZJVertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJVertex.m; sourceTree = "<group>"; };
 		238F2EC1252C378500E128CF /* ZJGraphVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJGraphVC.h; sourceTree = "<group>"; };
 		238F2EC2252C378500E128CF /* ZJGraphVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJGraphVC.m; sourceTree = "<group>"; };
+		238F2EC8252C761000E128CF /* ZJUndirectedGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJUndirectedGraph.h; sourceTree = "<group>"; };
+		238F2EC9252C761000E128CF /* ZJUndirectedGraph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUndirectedGraph.m; sourceTree = "<group>"; };
 		239B4B6A2507313C00450B73 /* ZJNSNotificationVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNSNotificationVc.h; sourceTree = "<group>"; };
 		239B4B6B2507313C00450B73 /* ZJNSNotificationVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNSNotificationVc.m; sourceTree = "<group>"; };
 		23A257822518D24E00718838 /* ZJIosIdentifierVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJIosIdentifierVC.h; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 			children = (
 				238F2EB9252C30EE00E128CF /* ZJGraph.h */,
 				238F2EBA252C30EE00E128CF /* ZJGraph.m */,
+				238F2EC8252C761000E128CF /* ZJUndirectedGraph.h */,
+				238F2EC9252C761000E128CF /* ZJUndirectedGraph.m */,
 				238F2EBD252C318000E128CF /* ZJVertex.h */,
 				238F2EBE252C318000E128CF /* ZJVertex.m */,
 			);
@@ -322,6 +327,7 @@
 				2382217E24FB57EB002EB1DA /* DetailViewController.m in Sources */,
 				23E5BD102506305F00950AB2 /* ZJTreeNodeUtil.m in Sources */,
 				238F2EBF252C318000E128CF /* ZJVertex.m in Sources */,
+				238F2ECA252C761000E128CF /* ZJUndirectedGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

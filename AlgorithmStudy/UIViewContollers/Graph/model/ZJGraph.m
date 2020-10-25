@@ -14,7 +14,9 @@
 
 @end
 
-@implementation ZJGraph
+@implementation ZJGraph{
+    
+}
 
 -(instancetype)initWithVertex:(ZJVertex*)vertex
 {
