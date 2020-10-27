@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23273CF925048A6C0023AA70 /* Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = 23273CF825048A6C0023AA70 /* Heap.m */; };
+		236671E725459A8C00355A76 /* ZJArrayTestVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 236671E625459A8C00355A76 /* ZJArrayTestVc.m */; };
 		2382216224FB519B002EB1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216124FB519B002EB1DA /* AppDelegate.m */; };
 		2382216524FB519B002EB1DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2382216424FB519B002EB1DA /* SceneDelegate.m */; };
 		2382216D24FB519D002EB1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2382216C24FB519D002EB1DA /* Assets.xcassets */; };
@@ -36,6 +37,9 @@
 /* Begin PBXFileReference section */
 		23273CF725048A6C0023AA70 /* Heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
 		23273CF825048A6C0023AA70 /* Heap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heap.m; sourceTree = "<group>"; };
+		236671E4254595B600355A76 /* README_array.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_array.md; sourceTree = "<group>"; };
+		236671E525459A8C00355A76 /* ZJArrayTestVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJArrayTestVc.h; sourceTree = "<group>"; };
+		236671E625459A8C00355A76 /* ZJArrayTestVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJArrayTestVc.m; sourceTree = "<group>"; };
 		2382215D24FB519B002EB1DA /* AlgorithmStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2382216024FB519B002EB1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2382216124FB519B002EB1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +99,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236671DE2545951100355A76 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				236671E4254595B600355A76 /* README_array.md */,
+				236671E525459A8C00355A76 /* ZJArrayTestVc.h */,
+				236671E625459A8C00355A76 /* ZJArrayTestVc.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		2382215424FB519A002EB1DA = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +155,7 @@
 		2382217F24FB5841002EB1DA /* UIViewContollers */ = {
 			isa = PBXGroup;
 			children = (
+				236671DE2545951100355A76 /* Array */,
 				23A257812518D1B500718838 /* Work */,
 				238F2EB3252ACE5900E128CF /* Graph */,
 				239B4B692507308300450B73 /* FAQ */,
@@ -307,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2382218924FB5BA4002EB1DA /* MyDimeScale.m in Sources */,
+				236671E725459A8C00355A76 /* ZJArrayTestVc.m in Sources */,
 				238F2EC3252C378500E128CF /* ZJGraphVC.m in Sources */,
 				2382219524FB6931002EB1DA /* HomeTableVC.m in Sources */,
 				2382218324FB58BC002EB1DA /* PriorityQueueVC.m in Sources */,

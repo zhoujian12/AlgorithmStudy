@@ -11,6 +11,15 @@
 static  NSString *const w = @"abc";
 int j;
 
+/*
+ 2020-10-25 20:06:18.418803+0800 AlgorithmStudy[77600:2780041] w :abc w 的地址: 0x103691178
+ 2020-10-25 20:06:18.419420+0800 AlgorithmStudy[77600:2780041] j 的地址: 0x103695d20
+ 2020-10-25 20:06:18.419579+0800 AlgorithmStudy[77600:2780041] s : 0x7ffeec580c60
+ 
+ 2020-10-25 20:07:23.080591+0800 AlgorithmStudy[77639:2781238] w :abc w 的地址: 0x10f422178
+ 2020-10-25 20:07:23.082343+0800 AlgorithmStudy[77639:2781238] j 的地址: 0x10f426d20
+ 2020-10-25 20:07:23.082544+0800 AlgorithmStudy[77639:2781238] s : 0x7ffee07efc60
+ */
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
@@ -22,8 +31,9 @@ int main(int argc, char * argv[]) {
      */
 //    NSString *w = @"abc";
 //    w = @"bcd";
-    NSLog(@"w :%@ w 的地址: %p",w,&w);
-    NSLog(@"j 的地址: %p",&j);
+    
+//    NSLog(@"w :%@ w 的地址: %p",w,&w);
+//    NSLog(@"j 的地址: %p",&j);
     
     
     @autoreleasepool {
@@ -36,8 +46,8 @@ int main(int argc, char * argv[]) {
          2. s : 0x7ffeed9a9c80
          **/
         
-        NSString *s = @"abc";
-        NSLog(@"s : %p",&s);
+//        NSString *s = @"abc";
+//        NSLog(@"s : %p",&s);
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
         
 //        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));

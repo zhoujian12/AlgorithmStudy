@@ -44,6 +44,7 @@
 
         [_adjacencyList setObject:toVertex ? [NSMutableArray arrayWithObject:toVertex] : [NSMutableArray new] forKey:fromVertex];
     }
+
 }
 
 -(ZJVertex*)isVertexPresent:(ZJVertex*)vertex

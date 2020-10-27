@@ -21,7 +21,16 @@
 {
     if (_demoTypeList == nil)
     {
-        _demoTypeList = @[@{@"type_title":@"堆算法",
+        _demoTypeList = @[
+        @{@"type_title":@"Array和链表算法",
+                            @"type_vclist":@[@{@"title":NSLocalizedString(@"1.Array", @""),
+                                               @"class":[NSClassFromString(@"ZJArrayTestVc")  class]
+                            },
+                                             @{@"title":NSLocalizedString(@"2.链表", @""),
+                                               @"class":[NSClassFromString(@"TopKVc")  class]
+                                             }
+                            ]
+        },@{@"type_title":@"堆算法",
                             @"type_vclist":@[@{@"title":NSLocalizedString(@"1.优先级队列", @""),
                                                @"class":[NSClassFromString(@"PriorityQueueVC")  class]
                             },
